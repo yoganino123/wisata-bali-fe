@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useDebugValue } from "react";
 import Cookies from "js-cookie";
 
-const URL = "http://localhost:3000/user";
+const URL = "https://wisata-bali-be.herokuapp.com/user";
 
 const getWisataUser = async (cb) => {
   try {

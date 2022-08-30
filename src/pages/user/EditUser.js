@@ -52,7 +52,9 @@ const EditUser = () => {
                 <img
                   className="card-img-top "
                   height="150"
-                  src={"http://localhost:3000/" + getProfile.image}
+                  src={
+                    "https://wisata-bali-be.herokuapp.com/" + getProfile.image
+                  }
                   alt="gambar"
                 />
               )}
@@ -107,7 +109,10 @@ const EditUser = () => {
                       className="card-img-top rounded"
                       height="200px"
                       width="auto"
-                      src={"http://localhost:3000/" + getProfile.image}
+                      src={
+                        "https://wisata-bali-be.herokuapp.com/" +
+                        getProfile.image
+                      }
                       alt="gambar"
                     />
                   </div>

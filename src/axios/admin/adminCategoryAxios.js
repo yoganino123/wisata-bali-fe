@@ -2,7 +2,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 
-const URL = "http://localhost:3000/admin/categories";
+const URL = "https://wisata-bali-be.herokuapp.com/admin/categories";
 
 const getCategories = async (callback) => {
   try {

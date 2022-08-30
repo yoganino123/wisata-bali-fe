@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const URL = "http://localhost:3000/home/category";
+const URL = "https://wisata-bali-be.herokuapp.com/home/category";
 
 const getCategory = async (cb) => {
   try {
