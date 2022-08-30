@@ -69,4 +69,10 @@ const updCategory = async (id, form) => {
   }
 };
 
-export { getCategories, getCategoryById, addCategory, delCategory, updCategory };
+export {
+  getCategories,
+  getCategoryById,
+  addCategory,
+  delCategory,
+  updCategory,
+};

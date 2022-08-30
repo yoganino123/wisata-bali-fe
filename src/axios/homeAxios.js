@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 
-const URL = "http://localhost:3000/home";
+const URL = "https://wisata-bali-be.herokuapp.com/home";
 
 const getWisata = async (cb) => {
   try {
@@ -101,7 +101,11 @@ const logoutUser = async () => {
     }).then(async (result) => {
       if (result.isConfirmed) {
         Cookies.remove("user");
-        Swal.fire("Logout!", "You Has Been Logout, Wait a Second We Move You to Home Page", "success");
+        Swal.fire(
+          "Logout!",
+          "You Has Been Logout, Wait a Second We Move You to Home Page",
+          "success"
+        );
         window.location.reload(false);
       }
     });
@@ -115,4 +119,11 @@ const logoutUser = async () => {
   }
 };
 
-export { getWisata, getCategoryId, getWisataId, loginUser, regisUser, logoutUser };
+export {
+  getWisata,
+  getCategoryId,
+  getWisataId,
+  loginUser,
+  regisUser,
+  logoutUser,
+};
