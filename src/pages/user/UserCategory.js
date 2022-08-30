@@ -29,7 +29,9 @@ const HomePage = () => {
                   <img
                     className="card-img-top"
                     height="150"
-                    src={"http://localhost:3000/" + images[0].image}
+                    src={
+                      "https://wisata-bali-be.herokuapp.com/" + images[0].image
+                    }
                     alt="gambar"
                   />
                   {/* {console.log(images)} */}
@@ -51,7 +53,10 @@ const HomePage = () => {
                     <div className="text-center">
                       <a
                         className="btn btn-outline-dark mt-auto"
-                        href={`http://localhost:3001/user/wisata/` + id}
+                        href={
+                          `https://wisata-bali-app.herokuapp.com/user/wisata/` +
+                          id
+                        }
                       >
                         See Detail
                       </a>

@@ -76,7 +76,7 @@ const UserWisataId = () => {
               <div className="carousel-item active" key={id}>
                 <img
                   height="500"
-                  src={"http://localhost:3000/" + image}
+                  src={"https://wisata-bali-be.herokuapp.com/" + image}
                   className="d-block w-100"
                   alt="..."
                 />
@@ -254,7 +254,7 @@ const UserWisataId = () => {
                     <img
                       className="card-img-top "
                       height="150"
-                      src={"http://localhost:3000/" + user.image}
+                      src={"https://wisata-bali-be.herokuapp.com/" + user.image}
                       alt="gambar"
                     />
                     <div className="card-body p-4">
