@@ -53,7 +53,9 @@ const HomePage = () => {
                     <div className="text-center">
                       <a
                         className="btn btn-outline-dark mt-auto"
-                        href={`https://wisata-bali-be.herokuapp.com/` + id}
+                        href={
+                          `https://wisata-bali-app.herokuapp.com/wisata/` + id
+                        }
                       >
                         See Detail
                       </a>
