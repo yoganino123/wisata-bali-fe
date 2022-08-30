@@ -88,7 +88,9 @@ const NavbarUser = () => {
                 />
               ) : (
                 <img
-                  src={"http://localhost:3000/" + getProfile.image}
+                  src={
+                    "https://wisata-bali-be.herokuapp.com/" + getProfile.image
+                  }
                   width="25"
                   height="25"
                   className="rounded-circle"
